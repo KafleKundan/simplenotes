@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(33, 37, 41);
+    min-height: 100vh;
+}
+
+.active {
+    cursor: pointer;
+}
+
+.whitetext {
+    color: white;
+}
+
+#addNoteTxt:focus {
+    color: white;
+    outline: none !important;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(33, 37, 41);
+}
+
+#addNoteTitle:focus {
+    color: white;
+    outline: none !important;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(33, 37, 41);
+}
+
+#notesDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    height: fit-content;
+    padding: 5px 0 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerP {
+    padding: 0;
+    margin: 0;
+}
+
+#aboutcontainer {
+    display: none;
+}
